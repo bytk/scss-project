@@ -1,0 +1,21 @@
+@media only screen and (max-width: 768px) {
+
+    .col-md-4 {    flex: 0 0 33.333333%;max-width: 33.333333%;  }
+    section.subteam .my-carousel .carousel-control-next,section.subteam .my-carousel .carousel-control-prev {transform:scale(.5); }
+    section.subteam .my-carousel .carousel-control-next-icon, section.subteam .my-carousel .carousel-control-prev-icon {    top: -120px;}
+    section.subteam .my-carousel {height: 270px;}
+    section.subteam article {height: 500px;}
+    section.team .item {
+        p { font-size: .8rem; line-height: 22px;}
+    }
+    section.novinky .col-md-5 {
+        img {display:none;}
+    }
+    section.sponzori { height: 400px;
+
+        .col-md-3 {   width: 25%;    }
+
+    }
+    section.subteam.detail article header img {    width: 160px;    left: 60px; top: -125px;}
+}
+
